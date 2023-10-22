@@ -1,0 +1,71 @@
+.navbar-brand {
+    color: black;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.brandfolio {
+    color: brown;
+    font-weight: 600;
+}
+
+.navbar {
+    background-color: aliceblue;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.Details {
+    /* margin-left: 20px; */
+    align-items: end;
+    color: black;
+    padding-left: 30px;
+}
+
+.headingdetails {
+    /* color: hotpink; */
+    font-weight: 500;
+}
+
+.onehr {
+    width: 150px;
+    border: 2px solid aqua;
+}
+
+.twohr {
+    width: 300px;
+    border: 2px solid aqua;
+}
+
+
+.girl{
+    width: 250px;
+    height: 200px;
+    margin-left: 40px;
+    border-radius: 100px;
+    border: 5px solid gray;
+}
+.small{
+    background-color: wheat;
+}
+footer {
+    background-color: black;
+    color: white;
+}
+.icon{
+    margin-left: 30px;
+    font-size: 30px;
+}
+.links{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.b{
+    background-color: black !important;
+    color: white;
+}
+.btn{
+    margin-left: 10px;
+}

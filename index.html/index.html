@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<script>
+
+    function touch() {
+        document.getElementById("d").classList.toggle("b")
+    }
+    function cl() {
+        var con = confirm("Are you sure want to close this page")
+        if (con == true) {
+            window.close();
+        }
+    }
+   
+</script>
+
+<body>
+<div id="d">
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Port<span class="brandfolio">folio</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html"><i class="fa fa-home"
+                                aria-hidden="true"></i> &nbsp;Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html"><i class="fa fa-user" aria-hidden="true"></i> &nbsp;About
+                            me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html"><i class="fa fa-address-book" aria-hidden="true"></i>
+                            &nbsp;Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="service.html"><i class="fa fa-server" aria-hidden="true"></i>
+                            &nbsp;Services</a>
+                    </li>
+                </ul>
+                <button onclick="touch()" class="btn btn-success">DarkMode</button>
+                <button onclick="cl()" class="btn btn-danger">close</button>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <div class="container"><br>
+
+        <div class="row big py-5">
+            <div class="col-md-3 py-5">
+                <img src="images/girl.jpg" class="girl" alt="">
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-8 py-5">
+                <br><br><br>
+                <p class="para">My name is <span class="name">Kayathri S C</span>.</p>
+                <p class="para">I am currently a UG student at <b> S T Hindu College Nagercoil</b>.</p>
+            </div>
+        </div>
+    </div>
+</div>
+    <footer>
+        <div class="container">
+            <div class="row py-3">
+                <div class="col-md-5">
+                    <h2>About</h2>
+                    <br>
+                    <p>Disciplined,hardworking and creativity in B.Sc Computer Science with programming skills,
+                        communication and ability to interact with others.</p>
+                    <br>
+                    <i class="fa fa-facebook-square icon" aria-hidden="true"></i>
+                    <i class="fa fa-instagram icon" aria-hidden="true"></i>
+                    <i class="fa fa-twitter icon" aria-hidden="true"></i>
+                </div>
+                <div class="col-md-3">
+                    <h2>links</h2>
+                    <br>
+                    <ul>
+                        <li><a class="links" href="index.html">Home</a></li>
+                        <li><a class="links" href="contact.html">Contact</a></li>
+                        <li> <a class="links" href="about.html">About</a></li>
+                        <li> <a class="links" href="service.html">service</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h2>Have a Question ?</h2>
+                    <br>
+                    <h5>Mail</h5>
+                    <p><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp; <a href=""
+                            class="links">Kayathri@gmail.com</a></p>
+                    <br>
+                    <h5>Contact Number</h5>
+                    <p><i class="fa fa-phone" aria-hidden="true"></i> &nbsp; <a href="" class="links">+91 80***
+                            ***81</a></p>
+
+                </div>
+            </div>
+            <h6 style="text-align: center;">@copyRights by the Kayathri.S.C</h6>
+            <br>
+        </div>
+    </footer>
+</body>
+
+</html>
